@@ -6,17 +6,22 @@ import CurrencyConverter from './component/currencyConverter/CurrencyConverter'
 import UserContextProvider from './context/UserContextProvider'
 import Login from './component/contectUsecase/Login'
 import Profile from './component/contectUsecase/Profile'
+import Index from './component/context project2/Index'
 
 
 
+// const App = () => {
+//   return (
+//     <UserContextProvider>
+//       <Login />
+//       <Profile />
+//     </UserContextProvider>
+//   );
+// };
 const App = () => {
   return (
-    <UserContextProvider>
-      <Login/>
-      <Profile/>
-    </UserContextProvider>
-   
-  )
-}
+    <Index/>
+  );
+};
 
 export default App
