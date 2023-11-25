@@ -6,7 +6,8 @@ import CurrencyConverter from './component/currencyConverter/CurrencyConverter'
 import UserContextProvider from './context/UserContextProvider'
 import Login from './component/contectUsecase/Login'
 import Profile from './component/contectUsecase/Profile'
-import Index from './component/context project2/Index'
+import Index from './component/todo/Index'
+
 
 
 
